@@ -70,13 +70,17 @@ a{
     transition: 0.3s;
 }
 
-.btnBlack {
+.btnBlack, .btnBlue {
     color: #FCFBFB;
     background-color: #1a1a1a;
     font-size: 30px;
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
+    font-weight: 900;
+}
+.btnBlue{
+    background-color: #0303FD;
 }
 .maisAtracoes{
     text-align: center;
@@ -116,9 +120,16 @@ a{
 
 .projeto1{
     background-image: url('../img/casa.png');
+    margin-top: 40px;
 }
 .projeto2{
     background-image: url('../img/3d.jpg');
+}
+.projeto3{
+    background-image: url('../img/casadgames.png');
+}
+.projeto4{
+    background-image: url('../img/circuit\ d\ drone.webp');
 }
 .projetos{
     background-size: cover;
@@ -128,7 +139,6 @@ a{
     background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: -99;
-    
 }
 .bg{
     background-color: #1a1a1ad4;
@@ -136,4 +146,12 @@ a{
 }
 .both{
     clear: both;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.center{
+    text-align: center;
 }
