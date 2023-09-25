@@ -155,3 +155,13 @@ a{
 .center{
     text-align: center;
 }
+.imagem{
+    float: left;
+}
+.imagem img{
+    width: 100%;
+    margin-top: 40px;
+}
+.praca .descricao{
+    width: 60%;
+}
